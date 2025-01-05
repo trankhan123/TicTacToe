@@ -2,12 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document!!!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <style>
+    #Reset {
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: rgb(237, 245, 253);
+        border: 1px solid dodgerblue;
+        color: dodgerblue;
+        border-radius: 8px;
+        font-size: 1em;
+        transition: .3s;
+      }
+    </style>
 </head>
 <body>
-    <h1>Start building an actual project</h1>
-    <h2>succeed</h2>
-    <h3>Is it ?</h3>
+    <div id="main">
+        <h1>TicTacToe Game</h1>
+        <p>Click on the box to play
+            <br><span>Player X </span>go first, followed by <span>Player O</span>
+        </p>
+        <div id="board" class="board"></div>
+        <br>        
+        <button id="Reset">RESET</button>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
