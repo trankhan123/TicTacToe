@@ -45,7 +45,7 @@ span {
   border: 1px solid black;
 }
 .cell.taken {
-  cursor: none;
+  pointer-events: none;
 }
 #Reset:hover {
   background-color: dodgerblue;
